@@ -58,15 +58,14 @@ export default function Navbar() {
               <Link href="/products" className="hover:text-blue-600">
                 Produk
               </Link>
-
-              <div className="relative cursor-pointer">
+              <Link href="/cart" className="relative cursor-pointer">
                 <MdOutlineShoppingBag size={32} />
                 {cartCount > 0 && (
                   <span className="absolute -right-2 -top-1 flex h-5 w-5 items-center justify-center rounded-full bg-red-600 text-xs text-white">
                     {cartCount}
                   </span>
                 )}
-              </div>
+              </Link>
             </div>
 
             <div className="flex items-center gap-3 sm:hidden">

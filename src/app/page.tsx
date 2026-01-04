@@ -1,6 +1,5 @@
 import CategoryList from "../../components/home/category/CategoryList";
 import FeaturedSection from "../../components/home/featured/FeaturedSection";
-import Footer from "../../components/layout/Footer";
 import NewProductSection from "../../components/home/product/NewProductSection";
 import ContentSlider from "../../components/home/slider/ContentSlider";
 
@@ -11,7 +10,6 @@ export default function Home() {
       <CategoryList />
       <FeaturedSection />
       <NewProductSection />
-      <Footer />
     </main>
   );
 }
